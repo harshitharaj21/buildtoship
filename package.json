@@ -1,0 +1,13 @@
+{
+  "name": "fullstack-todo-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-grade Full-Stack To-Do List Application",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "migrate": "cd supabase && npm run migrate",
+    "build:client": "cd client && npm run build",
+    "start:server": "cd server && npm start"
+  }
+}
